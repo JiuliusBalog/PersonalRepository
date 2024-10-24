@@ -1,0 +1,55 @@
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #FED33B;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: black;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #FED33B;  /* creates padding around scroll thumb */
+  }
+#header{
+    background-color: #FED33B ;
+    height: 9vh;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+    text-decoration: none;
+}
+.amn{
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+.amn a{
+    text-decoration: none;
+}
+.amn:hover{
+    transition: 0.2s;
+    color: white;
+}
+.lista{
+    list-style: none;
+	display: flex;
+    align-items: center;
+	margin-right: 5px;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+.lista li{
+    margin-right: 15px;
+}
+.lista li:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+
+}
